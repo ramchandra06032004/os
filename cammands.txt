@@ -1,0 +1,98 @@
+file cammand 
+# List all files and directories
+ls
+
+# Change to the 'Documents' directory
+cd Documents
+
+# Create a new file named 'example.txt'
+touch example.txt
+
+# Remove the file 'example.txt'
+rm example.txt
+
+# Copy the file 'source.txt' to 'destination.txt'
+cp source.txt destination.txt
+
+# Move the file 'source.txt' to the 'archive' directory
+mv source.txt archive/
+
+# Display the content of 'example.txt'
+cat example.txt
+
+# Open 'example.txt' in nano editor
+nano example.txt
+
+# Find all .txt files in the current directory
+find . -name "*.txt"
+
+# Change the permissions of 'example.txt' to be readable, writable, and executable by the owner
+chmod 700 example.txt
+
+
+//directory releted cammand 
+# List all files and directories
+ls
+
+# Change to the 'Documents' directory
+cd Documents
+
+# Print the path of the current directory
+pwd
+
+# Create a new directory named 'example'
+mkdir example
+
+# Remove the empty directory 'example'
+rmdir example
+
+# Remove the directory 'example' and its contents
+rm -r example
+
+# Copy the directory 'source' and its contents to 'destination'
+cp -r source destination
+
+# Move the directory 'source' to 'archive'
+mv source archive
+
+# Find all directories named 'example' in the current directory
+find . -type d -name "example"
+
+# Change the permissions of 'example' directory to be readable, writable, and executable by the owner
+chmod 700 example
+
+//process management releted cammand 
+
+# Display the currently active processes
+ps
+
+# Display all running processes and system stats
+top
+
+# Display a complete overview of the system
+htop
+
+# Resume suspended jobs without bringing them to the foreground
+bg
+
+# Bring the most recent job to foreground
+fg
+
+# Terminate a process with PID 1234
+kill 1234
+
+# Kill processes by their name
+pkill processname
+
+# Kill all processes with the given name
+killall processname
+
+# Start a process with a given priority
+nice -n 5 processname
+
+# Change the priority of a running process
+renice +5 -p 1234
+
+
+//type of os 
+uname -s or uname -o
